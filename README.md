@@ -21,7 +21,7 @@ ai-powered-legal-contract-simplifier/
 1. Open this folder in VS Code:
 
    ```text
-   legal-contract-simplifier-vscode
+   ai-powered-legal-contract-simplifier
    ```
 
 2. Open the terminal in VS Code.
