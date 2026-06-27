@@ -71,7 +71,7 @@ ai-powered-legal-contract-simplifier/
 
 ## Future Improvements
 
-- Add OCR for screenshots
+- Improve OCR accuracy for screenshots and scanned documents
 - Connect a real AI summarization API
 - Add proper translation API support
 - Add login and user history
