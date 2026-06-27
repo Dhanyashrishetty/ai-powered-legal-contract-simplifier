@@ -151,7 +151,18 @@ const labels = {
     questions: "Questions to ask",
     intro: "In simple words:",
     warning: "Please check this carefully:",
-    fallback: "This text looks short. Add more contract or policy content for a better explanation."
+    fallback: "This text looks short. Add more contract or policy content for a better explanation.",
+    noRisk: "No obvious high-risk phrase was detected. Still review payment, privacy, cancellation, and dispute terms.",
+    summaryBase: "This document contains rules you may be agreeing to. It can affect your data, account, payments, and legal rights.",
+    summaryRisk: "The most important parts found are:",
+    noRiskSummary: "No major risk signal was found by this prototype, but important legal rights may still be present.",
+    studentTone: "Imagine you are reading this before clicking I Agree.",
+    voiceTone: "Here is the spoken-style explanation.",
+    questionsList: [
+      "What data is collected, and who receives it?",
+      "Can I cancel, delete my account, or remove my data easily?",
+      "What happens if the service makes a mistake or stops working?"
+    ]
   },
   "hi-IN": {
     summary: "सरल सारांश",
@@ -159,7 +170,18 @@ const labels = {
     questions: "पूछने योग्य सवाल",
     intro: "सरल भाषा में:",
     warning: "इसे ध्यान से जांचें:",
-    fallback: "यह पाठ छोटा है। बेहतर समझ के लिए अधिक नियम या अनुबंध जोड़ें।"
+    fallback: "यह पाठ छोटा है। बेहतर समझ के लिए अधिक नियम या अनुबंध जोड़ें।",
+    noRisk: "कोई स्पष्ट बड़ा जोखिम वाला वाक्य नहीं मिला। फिर भी भुगतान, गोपनीयता, रद्द करने और विवाद से जुड़े नियम जरूर देखें।",
+    summaryBase: "इस दस्तावेज़ में वे नियम हैं जिन्हें आप स्वीकार कर सकते हैं। यह आपके डेटा, खाते, भुगतान और कानूनी अधिकारों को प्रभावित कर सकता है।",
+    summaryRisk: "सबसे महत्वपूर्ण बातें ये हैं:",
+    noRiskSummary: "इस प्रोटोटाइप को कोई बड़ा जोखिम संकेत नहीं मिला, लेकिन महत्वपूर्ण कानूनी अधिकार फिर भी हो सकते हैं।",
+    studentTone: "इसे ऐसे समझें जैसे आप I Agree दबाने से पहले पढ़ रहे हैं।",
+    voiceTone: "यह सुनने लायक सरल व्याख्या है।",
+    questionsList: [
+      "कौन सा डेटा लिया जा रहा है और वह किसके साथ साझा होगा?",
+      "क्या मैं अपना खाता रद्द कर सकता/सकती हूं या अपना डेटा हटवा सकता/सकती हूं?",
+      "अगर सेवा में गलती होती है या सेवा बंद होती है तो क्या होगा?"
+    ]
   },
   "kn-IN": {
     summary: "ಸರಳ ಸಾರಾಂಶ",
@@ -167,7 +189,18 @@ const labels = {
     questions: "ಕೇಳಬೇಕಾದ ಪ್ರಶ್ನೆಗಳು",
     intro: "ಸರಳವಾಗಿ ಹೇಳುವುದಾದರೆ:",
     warning: "ಇದನ್ನು ಗಮನದಿಂದ ಪರಿಶೀಲಿಸಿ:",
-    fallback: "ಈ ಪಠ್ಯ ಚಿಕ್ಕದಾಗಿದೆ. ಉತ್ತಮ ವಿವರಣೆಗಾಗಿ ಹೆಚ್ಚಿನ ಒಪ್ಪಂದದ ಪಠ್ಯ ಸೇರಿಸಿ."
+    fallback: "ಈ ಪಠ್ಯ ಚಿಕ್ಕದಾಗಿದೆ. ಉತ್ತಮ ವಿವರಣೆಗಾಗಿ ಹೆಚ್ಚಿನ ಒಪ್ಪಂದದ ಪಠ್ಯ ಸೇರಿಸಿ.",
+    noRisk: "ಸ್ಪಷ್ಟವಾದ ದೊಡ್ಡ ಅಪಾಯದ ವಾಕ್ಯ ಕಂಡುಬಂದಿಲ್ಲ. ಆದರೂ ಪಾವತಿ, ಗೌಪ್ಯತೆ, ರದ್ದುಪಡಿಸುವಿಕೆ ಮತ್ತು ವಿವಾದದ ನಿಯಮಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
+    summaryBase: "ಈ ದಸ್ತಾವೇಜಿನಲ್ಲಿ ನೀವು ಒಪ್ಪಿಕೊಳ್ಳಬಹುದಾದ ನಿಯಮಗಳಿವೆ. ಇದು ನಿಮ್ಮ ಡೇಟಾ, ಖಾತೆ, ಪಾವತಿ ಮತ್ತು ಕಾನೂನು ಹಕ್ಕುಗಳ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ.",
+    summaryRisk: "ಕಂಡುಬಂದ ಪ್ರಮುಖ ಅಂಶಗಳು:",
+    noRiskSummary: "ಈ ಪ್ರೋಟೋಟೈಪ್‌ಗೆ ದೊಡ್ಡ ಅಪಾಯದ ಸೂಚನೆ ಕಂಡುಬಂದಿಲ್ಲ, ಆದರೆ ಪ್ರಮುಖ ಕಾನೂನು ಹಕ್ಕುಗಳು ಇನ್ನೂ ಇರಬಹುದು.",
+    studentTone: "I Agree ಒತ್ತುವ ಮೊದಲು ಓದುತ್ತಿದ್ದೀರಿ ಎಂದು ಕಲ್ಪಿಸಿ.",
+    voiceTone: "ಇದು ಕೇಳಲು ಸರಳವಾದ ವಿವರಣೆ.",
+    questionsList: [
+      "ಯಾವ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಅದನ್ನು ಯಾರಿಗೆ ಹಂಚಲಾಗುತ್ತದೆ?",
+      "ನಾನು ಖಾತೆಯನ್ನು ರದ್ದುಪಡಿಸಬಹುದೇ ಅಥವಾ ನನ್ನ ಡೇಟಾವನ್ನು ಅಳಿಸಬಹುದೇ?",
+      "ಸೇವೆಯಲ್ಲಿ ತಪ್ಪು ಆದರೆ ಅಥವಾ ಸೇವೆ ನಿಂತರೆ ಏನಾಗುತ್ತದೆ?"
+    ]
   },
   "ta-IN": {
     summary: "எளிய சுருக்கம்",
@@ -175,7 +208,18 @@ const labels = {
     questions: "கேட்க வேண்டிய கேள்விகள்",
     intro: "எளிய வார்த்தைகளில்:",
     warning: "இதைக் கவனமாக பார்க்கவும்:",
-    fallback: "இந்த உரை குறைவாக உள்ளது. நல்ல விளக்கத்திற்கு மேலும் ஒப்பந்த உரையை சேர்க்கவும்."
+    fallback: "இந்த உரை குறைவாக உள்ளது. நல்ல விளக்கத்திற்கு மேலும் ஒப்பந்த உரையை சேர்க்கவும்.",
+    noRisk: "தெளிவான பெரிய ஆபத்து சொல்லாக்கம் கண்டுபிடிக்கப்படவில்லை. இருந்தாலும் கட்டணம், தனியுரிமை, ரத்து செய்தல் மற்றும் வழக்கு விதிகளை பார்க்கவும்.",
+    summaryBase: "இந்த ஆவணத்தில் நீங்கள் ஒப்புக்கொள்ளக்கூடிய விதிகள் உள்ளன. இது உங்கள் தரவு, கணக்கு, கட்டணம் மற்றும் சட்ட உரிமைகளை பாதிக்கலாம்.",
+    summaryRisk: "கண்டறியப்பட்ட முக்கிய அம்சங்கள்:",
+    noRiskSummary: "இந்த மாதிரி பெரிய ஆபத்து சைகையை கண்டுபிடிக்கவில்லை, ஆனால் முக்கியமான சட்ட உரிமைகள் இருக்கலாம்.",
+    studentTone: "I Agree அழுத்துவதற்கு முன் இதை படிக்கிறீர்கள் என்று நினைத்து பாருங்கள்.",
+    voiceTone: "இது கேட்பதற்கான எளிய விளக்கம்.",
+    questionsList: [
+      "எந்த தரவு சேகரிக்கப்படுகிறது, அது யாருடன் பகிரப்படுகிறது?",
+      "நான் கணக்கை ரத்து செய்யலாமா அல்லது என் தரவை நீக்கலாமா?",
+      "சேவையில் தவறு நடந்தால் அல்லது சேவை நிறுத்தப்பட்டால் என்ன ஆகும்?"
+    ]
   },
   "te-IN": {
     summary: "సులభ సారాంశం",
@@ -183,7 +227,18 @@ const labels = {
     questions: "అడగాల్సిన ప్రశ్నలు",
     intro: "సులభంగా చెప్పాలంటే:",
     warning: "దీనిని జాగ్రత్తగా చూడండి:",
-    fallback: "ఈ పాఠ్యం చిన్నది. మెరుగైన వివరణ కోసం మరిన్ని ఒప్పంద వివరాలు జోడించండి."
+    fallback: "ఈ పాఠ్యం చిన్నది. మెరుగైన వివరణ కోసం మరిన్ని ఒప్పంద వివరాలు జోడించండి.",
+    noRisk: "స్పష్టమైన పెద్ద ప్రమాద సూచన కనిపించలేదు. అయినా చెల్లింపు, గోప్యత, రద్దు మరియు వివాద నియమాలను పరిశీలించండి.",
+    summaryBase: "ఈ పత్రంలో మీరు అంగీకరించే నియమాలు ఉండొచ్చు. ఇది మీ డేటా, ఖాతా, చెల్లింపులు మరియు చట్టపరమైన హక్కులను ప్రభావితం చేయవచ్చు.",
+    summaryRisk: "గుర్తించిన ముఖ్యమైన విషయాలు:",
+    noRiskSummary: "ఈ ప్రోటోటైప్‌కు పెద్ద ప్రమాద సూచన కనిపించలేదు, కానీ ముఖ్యమైన చట్టపరమైన హక్కులు ఉండవచ్చు.",
+    studentTone: "I Agree నొక్కే ముందు చదువుతున్నట్టు దీన్ని అర్థం చేసుకోండి.",
+    voiceTone: "ఇది వినడానికి సరళమైన వివరణ.",
+    questionsList: [
+      "ఏ డేటాను సేకరిస్తారు, దాన్ని ఎవరితో పంచుకుంటారు?",
+      "నేను నా ఖాతాను రద్దు చేయగలనా లేదా నా డేటాను తొలగించగలనా?",
+      "సేవలో తప్పు జరిగితే లేదా సేవ ఆగితే ఏమవుతుంది?"
+    ]
   },
   "ml-IN": {
     summary: "ലളിതമായ സംഗ്രഹം",
@@ -191,34 +246,87 @@ const labels = {
     questions: "ചോദിക്കേണ്ട ചോദ്യങ്ങൾ",
     intro: "ലളിതമായി പറഞ്ഞാൽ:",
     warning: "ഇത് ശ്രദ്ധിച്ച് പരിശോധിക്കുക:",
-    fallback: "ഈ എഴുത്ത് ചെറിയതാണ്. നല്ല വിശദീകരണത്തിനായി കൂടുതൽ കരാർ വിവരങ്ങൾ ചേർക്കുക."
+    fallback: "ഈ എഴുത്ത് ചെറിയതാണ്. നല്ല വിശദീകരണത്തിനായി കൂടുതൽ കരാർ വിവരങ്ങൾ ചേർക്കുക.",
+    noRisk: "വ്യക്തമായ വലിയ അപകട സൂചന കണ്ടെത്തിയില്ല. എങ്കിലും പണമടയ്ക്കൽ, സ്വകാര്യത, റദ്ദാക്കൽ, തർക്ക നിയമങ്ങൾ പരിശോധിക്കുക.",
+    summaryBase: "ഈ രേഖയിൽ നിങ്ങൾ സമ്മതിക്കുന്ന നിയമങ്ങൾ ഉണ്ടായിരിക്കാം. ഇത് നിങ്ങളുടെ ഡാറ്റ, അക്കൗണ്ട്, പണം, നിയമാവകാശങ്ങൾ എന്നിവയെ ബാധിക്കാം.",
+    summaryRisk: "കണ്ടെത്തിയ പ്രധാന കാര്യങ്ങൾ:",
+    noRiskSummary: "ഈ പ്രോട്ടോടൈപ്പ് വലിയ അപകട സൂചന കണ്ടെത്തിയില്ല, പക്ഷേ പ്രധാന നിയമാവകാശങ്ങൾ ഉണ്ടായിരിക്കാം.",
+    studentTone: "I Agree അമർത്തുന്നതിന് മുമ്പ് വായിക്കുന്നതുപോലെ ഇത് മനസ്സിലാക്കുക.",
+    voiceTone: "ഇത് കേൾക്കാൻ എളുപ്പമായ ലളിത വിശദീകരണമാണ്.",
+    questionsList: [
+      "ഏത് ഡാറ്റയാണ് ശേഖരിക്കുന്നത്, അത് ആരുമായി പങ്കിടുന്നു?",
+      "എനിക്ക് അക്കൗണ്ട് റദ്ദാക്കാനോ എന്റെ ഡാറ്റ നീക്കാനോ കഴിയുമോ?",
+      "സേവനത്തിൽ പിഴവ് സംഭവിച്ചാൽ അല്ലെങ്കിൽ സേവനം നിർത്തിയാൽ എന്ത് സംഭവിക്കും?"
+    ]
   }
 };
 
 const riskSignals = [
   {
     terms: ["share your data", "third party", "affiliates", "partners", "sell", "advertising"],
-    simple: "Your data may be shared with another company or used for advertising."
+    simple: {
+      "en-IN": "Your data may be shared with another company or used for advertising.",
+      "hi-IN": "आपका डेटा किसी दूसरी कंपनी के साथ साझा हो सकता है या विज्ञापन के लिए इस्तेमाल हो सकता है।",
+      "kn-IN": "ನಿಮ್ಮ ಡೇಟಾವನ್ನು ಬೇರೆ ಕಂಪನಿಯೊಂದಿಗೆ ಹಂಚಬಹುದು ಅಥವಾ ಜಾಹೀರಾತಿಗಾಗಿ ಬಳಸಬಹುದು.",
+      "ta-IN": "உங்கள் தரவு வேறு நிறுவனத்துடன் பகிரப்படலாம் அல்லது விளம்பரத்திற்கு பயன்படுத்தப்படலாம்.",
+      "te-IN": "మీ డేటాను మరొక కంపెనీతో పంచుకోవచ్చు లేదా ప్రకటనల కోసం ఉపయోగించవచ్చు.",
+      "ml-IN": "നിങ്ങളുടെ ഡാറ്റ മറ്റൊരു കമ്പനികളുമായി പങ്കിടുകയോ പരസ്യങ്ങൾക്ക് ഉപയോഗിക്കുകയോ ചെയ്യാം."
+    }
   },
   {
     terms: ["automatically renew", "auto-renew", "recurring", "subscription renews"],
-    simple: "Payment or subscription may continue automatically unless you cancel."
+    simple: {
+      "en-IN": "Payment or subscription may continue automatically unless you cancel.",
+      "hi-IN": "जब तक आप रद्द नहीं करते, भुगतान या सदस्यता अपने आप जारी रह सकती है।",
+      "kn-IN": "ನೀವು ರದ್ದುಪಡಿಸದಿದ್ದರೆ ಪಾವತಿ ಅಥವಾ ಚಂದಾದಾರಿಕೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮುಂದುವರಿಯಬಹುದು.",
+      "ta-IN": "நீங்கள் ரத்து செய்யாவிட்டால் கட்டணம் அல்லது சந்தா தானாக தொடரலாம்.",
+      "te-IN": "మీరు రద్దు చేయకపోతే చెల్లింపు లేదా సబ్‌స్క్రిప్షన్ స్వయంగా కొనసాగవచ్చు.",
+      "ml-IN": "നിങ്ങൾ റദ്ദാക്കാത്ത പക്ഷം പണമടയ്ക്കൽ അല്ലെങ്കിൽ സബ്സ്ക്രിപ്ഷൻ സ്വയം തുടരും."
+    }
   },
   {
     terms: ["not liable", "limited liability", "no responsibility", "as is"],
-    simple: "The company may be limiting responsibility if something goes wrong."
+    simple: {
+      "en-IN": "The company may be limiting responsibility if something goes wrong.",
+      "hi-IN": "अगर कुछ गलत होता है तो कंपनी अपनी जिम्मेदारी सीमित कर सकती है।",
+      "kn-IN": "ಏನಾದರೂ ತಪ್ಪಾದರೆ ಕಂಪನಿ ತನ್ನ ಜವಾಬ್ದಾರಿಯನ್ನು ಮಿತಿಗೊಳಿಸಬಹುದು.",
+      "ta-IN": "ஏதேனும் தவறு நடந்தால் நிறுவனம் தனது பொறுப்பை குறைக்கலாம்.",
+      "te-IN": "ఏదైనా తప్పు జరిగితే కంపెనీ తన బాధ్యతను పరిమితం చేయవచ్చు.",
+      "ml-IN": "എന്തെങ്കിലും പ്രശ്നം ഉണ്ടായാൽ കമ്പനി തന്റെ ഉത്തരവാദിത്തം കുറയ്ക്കാം."
+    }
   },
   {
     terms: ["terminate", "suspend", "disable your account", "remove access"],
-    simple: "Your account or access can be stopped under certain conditions."
+    simple: {
+      "en-IN": "Your account or access can be stopped under certain conditions.",
+      "hi-IN": "कुछ स्थितियों में आपका खाता या एक्सेस बंद किया जा सकता है।",
+      "kn-IN": "ಕೆಲವು ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ನಿಮ್ಮ ಖಾತೆ ಅಥವಾ ಪ್ರವೇಶವನ್ನು ನಿಲ್ಲಿಸಬಹುದು.",
+      "ta-IN": "சில சூழ்நிலைகளில் உங்கள் கணக்கு அல்லது அணுகல் நிறுத்தப்படலாம்.",
+      "te-IN": "కొన్ని పరిస్థితుల్లో మీ ఖాతా లేదా యాక్సెస్ నిలిపివేయబడవచ్చు.",
+      "ml-IN": "ചില സാഹചര്യങ്ങളിൽ നിങ്ങളുടെ അക്കൗണ്ട് അല്ലെങ്കിൽ പ്രവേശനം നിർത്താം."
+    }
   },
   {
     terms: ["location", "cookies", "tracking", "device information", "usage data"],
-    simple: "The service may collect details about your device, location, or activity."
+    simple: {
+      "en-IN": "The service may collect details about your device, location, or activity.",
+      "hi-IN": "सेवा आपके डिवाइस, स्थान या गतिविधि की जानकारी ले सकती है।",
+      "kn-IN": "ಸೇವೆ ನಿಮ್ಮ ಸಾಧನ, ಸ್ಥಳ ಅಥವಾ ಬಳಕೆಯ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಬಹುದು.",
+      "ta-IN": "சேவை உங்கள் சாதனம், இடம் அல்லது செயல்பாட்டு விவரங்களை சேகரிக்கலாம்.",
+      "te-IN": "సేవ మీ పరికరం, స్థానం లేదా వినియోగ వివరాలను సేకరించవచ్చు.",
+      "ml-IN": "സേവനം നിങ്ങളുടെ ഉപകരണം, സ്ഥലം, പ്രവർത്തനം എന്നിവയുടെ വിവരങ്ങൾ ശേഖരിക്കാം."
+    }
   },
   {
     terms: ["arbitration", "jurisdiction", "governing law", "class action", "dispute"],
-    simple: "If there is a legal problem, the rules may decide where and how you can complain."
+    simple: {
+      "en-IN": "If there is a legal problem, the rules may decide where and how you can complain.",
+      "hi-IN": "अगर कानूनी समस्या होती है, तो नियम तय कर सकते हैं कि आप कहां और कैसे शिकायत कर सकते हैं।",
+      "kn-IN": "ಕಾನೂನು ಸಮಸ್ಯೆ ಬಂದರೆ, ನೀವು ಎಲ್ಲಿ ಮತ್ತು ಹೇಗೆ ದೂರು ನೀಡಬಹುದು ಎಂಬುದನ್ನು ಈ ನಿಯಮಗಳು ನಿರ್ಧರಿಸಬಹುದು.",
+      "ta-IN": "சட்ட பிரச்சனை வந்தால், எங்கு எப்படி புகார் செய்யலாம் என்பதை இந்த விதிகள் தீர்மானிக்கலாம்.",
+      "te-IN": "చట్టపరమైన సమస్య వస్తే, మీరు ఎక్కడ మరియు ఎలా ఫిర్యాదు చేయగలరో ఈ నియమాలు నిర్ణయించవచ్చు.",
+      "ml-IN": "നിയമ പ്രശ്നം ഉണ്ടായാൽ, എവിടെ എങ്ങനെ പരാതി നൽകാമെന്ന് ഈ നിയമങ്ങൾ തീരുമാനിക്കാം."
+    }
   }
 ];
 
@@ -229,6 +337,10 @@ let isReadingFile = false;
 
 function getLabel() {
   return labels[languageSelect.value] || labels["en-IN"];
+}
+
+function getRiskText(risk) {
+  return risk.simple[languageSelect.value] || risk.simple["en-IN"];
 }
 
 function splitSentences(text) {
@@ -277,18 +389,24 @@ function makeSummary(text, risks) {
       .replace(/\baffiliates\b/gi, "related companies");
   });
 
+  const riskTexts = risks.map(getRiskText);
   const riskSentence = risks.length
-    ? ` ${currentLabels.warning} ${risks.map((risk) => risk.simple).join(" ")}`
-    : " No major risk signal was found by this prototype, but important legal rights may still be present.";
+    ? `${currentLabels.warning} ${riskTexts.join(" ")}`
+    : currentLabels.noRiskSummary;
 
   const tonePrefix =
     toneSelect.value === "student"
-      ? "Imagine you are reading this before clicking I Agree. "
+      ? `${currentLabels.studentTone} `
       : toneSelect.value === "voice"
-        ? "Here is the spoken-style explanation. "
+        ? `${currentLabels.voiceTone} `
         : "";
 
-  return `${currentLabels.intro} ${tonePrefix}${simplified.join(" ")}${riskSentence}`;
+  if (languageSelect.value === "en-IN") {
+    return `${currentLabels.intro} ${tonePrefix}${simplified.join(" ")} ${riskSentence}`;
+  }
+
+  const detectedPart = risks.length ? `${currentLabels.summaryRisk} ${riskTexts.join(" ")}` : riskSentence;
+  return `${currentLabels.intro} ${tonePrefix}${currentLabels.summaryBase} ${detectedPart}`;
 }
 
 function renderList(target, items) {
@@ -312,15 +430,8 @@ function simplify() {
   questionsTitle.textContent = currentLabels.questions;
   summaryText.textContent = makeSummary(text, risks);
 
-  const riskItems = risks.length
-    ? risks.map((risk) => risk.simple)
-    : ["No obvious high-risk phrase was detected. Still review payment, privacy, cancellation, and dispute terms."];
-
-  const questionItems = [
-    "What data is collected, and who receives it?",
-    "Can I cancel, delete my account, or remove my data easily?",
-    "What happens if the service makes a mistake or stops working?"
-  ];
+  const riskItems = risks.length ? risks.map(getRiskText) : [currentLabels.noRisk];
+  const questionItems = currentLabels.questionsList;
 
   renderList(riskList, riskItems);
   renderList(questionList, questionItems);
