@@ -1,0 +1,19 @@
+{
+  "name": "ai-powered-legal-contract-simplifier",
+  "version": "1.0.0",
+  "description": "A browser-based prototype that simplifies legal contracts into plain language with multilingual and voice support.",
+  "private": true,
+  "scripts": {
+    "start": "vite --host 127.0.0.1",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "mammoth": "^1.8.0",
+    "pdfjs-dist": "^4.10.38",
+    "tesseract.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
